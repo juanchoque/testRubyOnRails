@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails comunity: development" uuid="997e2dff-f052-479f-b7f4-92c48760496d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="Rails comunity: test" uuid="3027927e-d940-4c54-916b-c3de0cb80929">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="Rails comunity: production" uuid="422a2b05-0d60-47d7-b903-1e6c80f01c5f">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <user-name>comunity</user-name>
+    </data-source>
+  </component>
+</project>

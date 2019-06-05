@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails comunity: development" uuid="997e2dff-f052-479f-b7f4-92c48760496d">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/comunity_development</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="yearIsDateType" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Rails comunity: test" uuid="3027927e-d940-4c54-916b-c3de0cb80929">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/comunity_test</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="yearIsDateType" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="Rails comunity: production" uuid="422a2b05-0d60-47d7-b903-1e6c80f01c5f">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/comunity_production</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+        <property name="yearIsDateType" value="false" />
+        <property name="characterEncoding" value="utf8" />
+        <property name="zeroDateTimeBehavior" value="CONVERT_TO_NULL" />
+        <property name="characterSetResults" value="utf8" />
+        <property name="tinyInt1isBit" value="false" />
+      </driver-properties>
+    </data-source>
+  </component>
+</project>
