@@ -3,13 +3,25 @@ class ImagesController < ApplicationController
         @images = Image.all
     end
 
-    def new 
+    def new
+        @image = Image.new
     end
 
     def create
         # render plain: params[:image].inspect
         @image = Image.new image_params
         @image.save
+
+        redirect_to @image
+    end
+
+    def edit
+        @image = Image.find params[:id]
+    end
+
+    def update
+        @image = Image.find params[:id]
+        @image.update image_params
 
         redirect_to @image
     end
